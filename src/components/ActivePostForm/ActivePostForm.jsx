@@ -19,7 +19,8 @@ const ActivePostForm = ({ userId }) => {
             <input type="text" name="slug" placeholder="Slug" />
             <input type="text" name="img" placeholder="Img Url" />
             <textarea type="text" name="desc" placeholder="Description" rows={10} />
-            <input type="hidden" name="userId" value="{{userId}}"></input>
+            {/* Corrected line */}
+            <input type="hidden" name="userId" value={userId}></input>
             <button onClick={refresh}>Add</button>
             {state?.error && <div style={{ marginBottom: '13px', marginTop: '13px', textAlign: "center" }} className='error'> {state.error}  </div>}
         </form>
