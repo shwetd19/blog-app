@@ -7,7 +7,7 @@ const page: React.FC = async () => {
 
     const session = await auth();
 
-    // const userId = '65b297e01424735511bbe770';
+    const userId = '65b297e01424735511bbe770';
 
     if (!(session && session.user)) {
         redirect('/');
@@ -18,7 +18,7 @@ const page: React.FC = async () => {
     return (
         <section className="admin-row">
             <Suspense fallback={<div className='loading-time'> Loading... </div>}>
-                <ActivePostForm/>
+                <ActivePostForm userId={undefined}/>
             </Suspense>
         </section>
     )
