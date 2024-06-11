@@ -12,19 +12,11 @@ export const navLinks: NavlinksProps[] = [
         title: 'Home',
         path: '/',
     },
-    {
-        title: 'About',
-        path: '/about',
-    },
     {   title: 'Add Post', 
         path: '/addpost' 
     },
     {
-        title: 'Contact',
-        path: '/contact',
-    },
-    {
-        title: 'Blog',
+        title: 'Blogs',
         path: '/blog',
     },
 ];

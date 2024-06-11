@@ -21,7 +21,7 @@ const userSchema = new mongoose.Schema(
     img: {
       type: String,
     },
-    isAdmin: {
+    isActive: {
       type: Boolean,
       default: false,
     },

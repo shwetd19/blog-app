@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
         <footer>
             <ul>
                 <li>
-                    <a target='_blank' href="https://github.com/AzarAhmadov">AzarDev</a>
+                    <a target='_blank' href="https://github.com/shwetd19/">ShwetDev</a>
                 </li>
                 <li>
                     <p> All rights reserved</p>

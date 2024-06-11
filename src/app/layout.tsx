@@ -2,12 +2,12 @@ import "../style/style.css";
 import Footer from "@/components/footer/Footer";
 import webLogo from '../../public/images/webLogo.png'
 import Navbar from "@/components/header/navbar/Navbar";
-import AdminIcon from "@/components/adminIcon/AdminIcon";
+import ActiveIcon from "@/components/activeIcon/ActiveIcon";
 
 export const metadata = {
   title: {
-    default: 'Home Page | AzarDev',
-    template: '%s | AzarDev'
+    default: 'Home Page | ShwetDev',
+    template: '%s | ShwetDev'
   }
 }
 
@@ -21,7 +21,7 @@ const RootLayout = ({ children, }: Readonly<{ children: React.ReactNode; }>) => 
           {children}
           <Footer />
         </div>
-        <AdminIcon />
+        <ActiveIcon />
       </body>
     </html>
   );

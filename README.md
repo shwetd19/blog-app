@@ -14,7 +14,7 @@ Live demo : http://azarblog.vercel.app/
   
 - Implementing an authorization system to control user access to specific functionalities.
   
-- Admin Panel Features: Admin panel for managing blog posts, allowing creation and deletion operations.
+- Active Panel Features: Active panel for managing blog posts, allowing creation and deletion operations.
   
 - SEO-Friendly Structure: Utilizing SEO-friendly URLs and optimizing meta tags for better search engine visibility.
 
